@@ -155,22 +155,23 @@ main {
   grid-gap: 30px;
   grid-template-areas: 'bioimage bio bio' 'job1 job2 job3';
   grid-template-columns: repeat(3, 1fr); }
-
-.bio-image {
-  grid-area: bioimage;
-  margin: auto;
-  border-radius: 50%;
-  border: #963232 3px solid; }
-  .bio-image .bio {
+  .about-info .bio-image {
+    width: 250px;
+    height: 250px;
+    grid-area: bioimage;
+    margin: auto;
+    border-radius: 50%;
+    border: #963232 3px solid; }
+  .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
-  .bio-image .job-1 {
+  .about-info .job-1 {
     grid-area: job1; }
-  .bio-image .job-2 {
+  .about-info .job-2 {
     grid-area: job2; }
-  .bio-image .job-3 {
+  .about-info .job-3 {
     grid-area: job3; }
-  .bio-image .job {
+  .about-info .job {
     background: #515151;
     padding: 0.5rem;
     border-bottom: #963232 5px solid; }
